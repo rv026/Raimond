@@ -1,0 +1,42 @@
+.header_midden {
+    height: 140px;
+    width: 640px;
+    border: 1px solid #009c3b;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid #009c3b;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/nike%20logo.png');
+    animation: slider 20s infinite linear;
+    box-sizing: border-box;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('images/nike%20logo.png');
+    }
+
+    10% {
+        background-image: url('images/nike%20logo.png');
+    }
+
+    35% {
+        background-image: url('images/adidas%20logo.png');
+    }
+
+    45% {
+        background-image: url('images/adidas%20logo.png');
+    }
+
+    70% {
+        background-image: url('images/macron%20logo.png');
+    }
+
+    80% {
+        background-image: url('images/macron%20logo.png');
+    }
+}
